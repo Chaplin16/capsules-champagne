@@ -1,0 +1,54 @@
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+.styleH2 {
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #5e6772;
+}
+
+.content {
+  text-align: center;
+}
+
+.card {
+  margin: auto;
+  margin-top: 2rem;
+  width: 195px !important;
+  text-align: center;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card a .cardImage {
+  width: 185px;
+  height: 270px;
+  border: 1px #d8d5d5 solid;
+  padding-top: 2rem;
+}
+
+.card a .cardImage img {
+  object-fit: contain;
+  width: 160px;
+  margin: auto;
+}
+
+.card a .styleH3,
+.card a .styleH4 {
+  text-align: center;
+  text-decoration: none;
+  color: #064c00;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.card .price {
+  font-weight: 600;
+}
+/*# sourceMappingURL=carousel.css.map */
