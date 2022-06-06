@@ -50,7 +50,13 @@ nav{
 .banner{
     width: 100%;
 }
-
+@media screen and (max-width:550px) {
+    .header .contact {
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 8rem;
+    }
+}
 @media screen and (max-width:767px) {
     .navbar__links{
         flex-direction: column;
@@ -81,7 +87,6 @@ nav{
             margin-right:1rem;
         }
     }
-
     .navbar__burger{
         z-index: 5;
         margin-right:-10rem;
